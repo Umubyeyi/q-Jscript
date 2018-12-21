@@ -16,111 +16,34 @@
    <body>
       <div class="container">
 
-          <h1> Quiz Board</h1>
-            <form>
 
-               <div class="form-group"> 
-                   <label class="control-label"> Why so JavaScript and Java have similar name?</label>
-                      <div class="radio">
-                        <label>
-                        <input type="radio" name="sim-name" value="JavaScript">
-                        JavaScript is a stripped-down version of Java
-                        </label>
-                      </div>
-                      <div class="radio">
-                            <label>
-                            <input type="radio"  name="sim-name" value="JavaScript">
-                            JavaScript's syntax is loosely based on Java's
-                            </label>
-                          </div>
-                          <div class="radio">
-                            <label>
-                            <input type="radio"  name="sim-name" value="JavaScript">
-                            They both originated on the island of Java
-                            </label>
-                          </div>
+          <ul>
+              <li>
+                <h3>How many letters are there in "JS"?</h3>
+                <input type="radio" name="question0" value="A">2<br>
+                <input type="radio" name="question0" value="B">1<br>
+                <input type="radio" name="question0" value="C">3<br>
+                <input type="radio" name="question0" value="D">4<br>
+              </li>
+              <li>
+                <h3>How many letters are there in "BMX"?</h3>
+                <input type="radio" name="question1" value="A">2<br>
+                <input type="radio" name="question1" value="B">1<br>
+                <input type="radio" name="question1" value="C">3<br>
+                <input type="radio" name="question1" value="D">4<br>
+              </li>
+              <li>
+                <h3>How many letters are there in "A"?</h3>
+                <input type="radio" name="question2" value="A">2<br>
+                <input type="radio" name="question2" value="B">1<br>
+                <input type="radio" name="question2" value="C">3<br>
+                <input type="radio" name="question2" value="D">4<br>
+              </li>
+            </ul>
+            
+            <button onclick="returnScore()">View Results</button>
     
-                          <div class="radio">
-                                <label>
-                                <input type="radio" name="sim-name" value="JavaScript">
-                                None of the above
-                                </label>
-                          </div>
-                    </div>	
-                 
-                    <div class="form-group"> 
-                          <label class="control-label"> What are variables used for in JavaScript Programs?</label>
-                          <div class="radio">
-                            <label>
-                            <input type="radio" name="var-used" value="JavaScript">
-                            Storing numbers, dates, or other values
-                            </label>
-                          </div>
-                          <div class="radio">
-                            <label>
-                            <input type="radio"  name="var-used" value="JavaScript">
-                            Varying randomly
-                            </label>
-                          </div>
-                          <div class="radio">
-                            <label>
-                            <input type="radio"  name="var-used" value="JavaScript">
-                            Causing high-school algebra flashbacks None of the above
-                            </label>
-                         </div>
-                         <div class="radio">
-                                <label>
-                                <input type="radio"  name="var-used" value="JavaScript">
-                                None of the above
-                                </label>
-                         </div>
-                    </div>
-                    <div class="form-group"> 
-                            <label class="control-label">  Which of the following can't be done with client-side JavaScript?</label>
-                            <div class="radio">
-                              <label>
-                              <input type="radio" name="clside-js" value="js">
-                              Validating a form
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                              <input type="radio"  name="clside-js" value="js">
-                              Sending a form's contents by email
-                              </label>
-                            </div>
-                            <div class="radio">
-                                   <label>
-                                   <input type="radio" name="clside-js" value="js">
-                                   Storing the form's contents to a database file on the server
-                                   </label>
-                                 </div>
-                                 <div class="radio">
-                                       <label>
-                                       <input type="radio" name="clside-js" value="js">
-                                       None of the above
-                                       </label>
-                                     </div>
-                       </div>
-                       <div class="form-group"> 
-                            <label class="control-label">  In JavaScript, Window.prompt() method return true or false value?</label>
-                         <div class="radio">
-                            <label>
-                            <input type="radio" name="clside-js" value="js">
-                            False
-                            </label>
-                          </div>
-                          <div class="radio">
-                                <label>
-                                <input type="radio" name="clside-js" value="js">
-                                True 
-                                </label>
-                          </div>
-                        </div>			
-                        <div class="form-group"> 
-                              <button class="btn btn-primary " name="submit" type="submit">Submit</button>
-                        </div>
-                                           
+       
             </form>
              
         </div> 

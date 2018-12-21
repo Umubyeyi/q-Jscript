@@ -1,10 +1,25 @@
 
+            $(document).ready(function (){
+              $('#blanks form').submit(function(event){
+              var marks=0;
+                var blanks=["question0", "question1","question2","question3"]
+                  blanks.forEach(function(blank) {
+                      var userInput = $("input:radio[name=" + blank + "]:checked" ).val();
+                              if(userInput=="B"){
+                              score = score+10;
+                              }
+                          })
+                    alert(score)
+              event.preventDefault();
+            });
+            });
+            
             var userInput = new Array();
             var answers = new Array(10);
             answers[0] = "B";
-            answers[1] = "C";
-            answers[2] = "A";
-            answers[3] = "C";
+            answers[1] = "B";
+            answers[2] = "B";
+            answers[3] = "B";
             
             
             function getScore(){

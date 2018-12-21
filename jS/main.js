@@ -44,3 +44,8 @@
             function returnScore(){
             alert("Your score is "+ getScore() +"/"+ tot);
             }
+            $(document).ready(function() {
+              $("button#green").click(function() {
+                $("body").addClass("green-background");
+              });
+            });

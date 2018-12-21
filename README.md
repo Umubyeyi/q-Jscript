@@ -1,6 +1,6 @@
-#Project name: q-Jscript
+###Project name: q-Jscript
   ## name:Umubyeyi Dinah
-### Project description
+## Project description
 ```This project is about making a quiz board where user select one answer to each question and after click submit the score obtained will be displayed```
 ### project setup instructions
 
